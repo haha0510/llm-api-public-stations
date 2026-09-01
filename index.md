@@ -1,21 +1,21 @@
 ---
 layout: default
-title: 17 个大模型 API 公益站推荐
+title: 18 个大模型 API 公益站推荐
 description: 2026 页面核验，整理免费额度、多模型体验与 AI Coding 接入方式
 lang: zh-CN
 ---
 
-# 2026 页面核验：17 个大模型 API 公益站推荐，注册领免费额度，Claude、Gemini、DeepSeek、GPT 都能体验
+# 2026 页面核验：18 个大模型 API 公益站推荐，注册领免费额度，Claude、Gemini、DeepSeek、GPT 都能体验
 
-![17 个大模型 API 公益站推荐封面](./cover.png)
+![18 个大模型 API 公益站推荐封面](./cover.png)
 
 > **适合读者：**想低成本体验大模型 API、配置 Cherry Studio，或接入 Claude Code、Cursor、Codex CLI、Gemini CLI 的开发者。
 >
-> **核验时间：**2026 年 8 月 31 日。本文包含邀请链接，部分平台会给新用户和邀请人发放站内额度。
+> **核验时间：**2026 年 9 月 1 日。本文包含邀请链接，部分平台会给新用户和邀请人发放站内额度。
 
 想学习大模型 API、给 Cherry Studio 配模型，或者折腾 Claude Code、Cursor、Codex CLI、Gemini CLI，最先遇到的问题往往不是代码，而是：**去哪里找一个低门槛的 API 做测试？**
 
-这篇文章整理了 17 个第三方大模型 API 公益站。我检查了注册页、首页、模型广场和公开公告，重点记录它们的模型覆盖、免费额度、接口兼容性和适用场景；无法完整访问或核验的站点会单独注明。
+这篇文章整理了 18 个第三方大模型 API 公益站。我检查了注册页、首页、模型广场和公开公告，重点记录它们的模型覆盖、免费额度、接口兼容性和适用场景；无法完整访问或核验的站点会单独注明。
 
 > **重要提醒：**这些站点均为独立第三方服务，并非 OpenAI、Anthropic、Google 等模型厂商的官方网站。免费额度、模型列表、倍率和活动规则都可能调整，请以注册时的页面和实际到账为准。建议只用于学习、联调和轻量体验，不要提交公司代码、隐私数据、密钥或其他敏感内容。
 
@@ -33,11 +33,12 @@ lang: zh-CN
 - **任务积分：**NOFX
 - **统一 API 网关：**TrueSOTA、Leo Studio
 - **签到和多客户端接入：**SeekAI、KKToken
+- **Codex 套餐和余额包：**CheapCodex
 - **新增注册链接：**JustWoker API、Camel Hub
 
-## 17 个平台详细介绍
+## 18 个平台详细介绍
 
-### 一分钟看懂：17 个站分别适合谁？
+### 一分钟看懂：18 个站分别适合谁？
 
 | 站点 | 核心优势 | 更适合 |
 |---|---|---|
@@ -58,6 +59,7 @@ lang: zh-CN
 | Leo Studio | 统一 API 网关、公开文档和邀请奖励 | 想查看接入文档与站内活动 |
 | SeekAI | New API 网关、签到和多客户端接入 | 想配置 Cherry Studio、CC Switch 等客户端 |
 | KKToken | New API 网关和签到功能 | 想自行查看统一 API 网关 |
+| CheapCodex | Codex 月订阅、余额包和多模型调用 | 高频使用 Codex 或需要预付余额包 |
 
 ### 1. 肖恩AI：新人额度最直观，签到和邀请奖励也比较完整
 
@@ -299,6 +301,16 @@ KKToken 的公开状态信息显示系统名为 **KKtoken AI**，采用 New API 
 >
 > 签到规则、模型、额度、价格和服务稳定性以站点实时页面为准。
 
+### 18. CheapCodex：Codex 月订阅和余额包
+
+CheapCodex 的公开页面将服务定位为 **AI API Gateway**，并展示面向 Codex 使用场景的 Lite、Pro 和 Pro Max 月订阅，以及多档余额包。页面说明订阅适合不同频率的开发工作流，余额包可以用于多种模型，并按后台实际倍率扣费。
+
+核验时页面存在限时折扣和具体套餐价格，但促销、配额与价格可能频繁变化，因此本文不固化当前数字。它更适合高频使用 Codex、希望选择月度配额，或需要集中购买余额包的用户。购买前应先确认每日、每周和每月限额、倍率、退款规则以及实际可用模型。
+
+> **立即注册：**[CheapCodex 邀请注册链接](https://api.cheapcodex.online/register?aff=DEVS32PQYT94)
+>
+> 套餐、配额、折扣、模型和价格以站点实时页面及注册后台为准。
+
 ## 到底应该选哪一个？
 
 如果你不想逐个研究，可以直接按需求选择：
@@ -315,6 +327,7 @@ KKToken 的公开状态信息显示系统名为 **KKtoken AI**，采用 New API 
 - **想通过签到和任务获取 API 积分：**可以看 NOFX；
 - **想查看新增的统一 API 网关：**可以看 TrueSOTA 或 Leo Studio；
 - **想尝试带签到和多客户端入口的 New API 网关：**可以看 SeekAI 或 KKToken；
+- **想选择 Codex 月订阅或预付余额包：**可以看 CheapCodex；
 - **想查看其他新增注册链接：**可以看 JustWoker API 或 Camel Hub，但请先自行核验站点信息。
 
 这些站没有必要只选一个。更实际的做法是：分别注册、领取体验额度，用同一段提示词测试响应速度、输出质量、工具调用和扣费记录，再决定哪一个更适合自己的客户端和工作流。
@@ -364,7 +377,7 @@ print(response.choices[0].message.content)
 
 第三方公益 API 站最大的价值，是让开发者能用较低成本完成第一次调用：从生成 API Key，到跑通 Python 代码，再到把 Claude、Gemini、DeepSeek、GPT 等模型接进自己的工具。
 
-如果只是想快速体验，肖恩AI的新人和签到额度比较直观；如果目标是 AI 编程，Agent Router、DoCode 和熊猫API的接口与工具文档更有针对性；如果偏好免费模型、每日领取或任务积分，可以关注 Liminality 和 NOFX；而芙卡卡、可萌中转站、GoRouter、TaBiAI、橘子API、TrueSOTA、Leo Studio、SeekAI、KKToken、JustWoker API 和 Camel Hub 则分别有客户端适配、公开模型广场、精简路由、明确端点、统一网关、签到或新增注册链接方面的特点。
+如果只是想快速体验，肖恩AI的新人和签到额度比较直观；如果目标是 AI 编程，Agent Router、DoCode 和熊猫API的接口与工具文档更有针对性；如果偏好免费模型、每日领取或任务积分，可以关注 Liminality 和 NOFX；如果需要 Codex 月订阅或余额包，可以比较 CheapCodex；而芙卡卡、可萌中转站、GoRouter、TaBiAI、橘子API、TrueSOTA、Leo Studio、SeekAI、KKToken、JustWoker API 和 Camel Hub 则分别有客户端适配、公开模型广场、精简路由、明确端点、统一网关、签到或新增注册链接方面的特点。
 
 最后再强调一次：**所有奖励、模型和价格都以站内实时页面为准。先小额测试、避免敏感数据、保留多个备用渠道，才是使用第三方 API 更稳妥的方式。**
 
